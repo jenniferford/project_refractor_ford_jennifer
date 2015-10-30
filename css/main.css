@@ -17,7 +17,6 @@ body {
     padding: 0;
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
     color: #5B5B5B;
 }
 
@@ -164,7 +163,7 @@ a {
 
 #menu ul {
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 2em 0.8em;
     list-style: none;
     line-height: normal;
 }
@@ -179,7 +178,6 @@ a {
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
     font-weight: 300;
     color: #1F1F1F;
     border: none;
@@ -196,17 +194,16 @@ a {
 
 #page {
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 0em 0em;
 }
 
 .post {
-    margin: 20px;
-    margin-bottom: 40px;
+    margin: 1em;
+    margin-bottom: 3em;
     border-bottom: 1px solid #E7EBED;
 }
 
 .post .title {
-    padding: 7px 0px 0px 0px;
     letter-spacing: -1px;
 }
 
@@ -217,38 +214,27 @@ a {
 }
 
 .post .meta {
-    margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
+    margin-bottom: 1em;
+    padding:.4em;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
     font-weight: 300;
 }
 
-.post .meta .date {
-    float: left;
-}
-
-.post .meta .posted {
-    float: right;
-}
-
 .post .entry {
-    padding: 0px 0px 40px 0px;
     text-align: justify;
 }
 
 .links {
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding-top: .5em;
+    margin-bottom: 3em;
 }
 
 .more {
     display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
-    margin-right: 10px;
+    max-width: 120px;
+    padding: .2em .5em;
+    margin: 1em;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
@@ -257,51 +243,43 @@ a {
 
 .comments {
     display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
+    max-width: 120px;
+    padding: .2em .5em;
+    margin: 1em;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
 }
-
+.date{
+    padding-right: 3em;
+}
 
 /* Sidebar */
 
 #sidebar {
     margin: 20px;
-    padding: 30px 0px 0px 0px;
+    padding: 3em 0em 0em 0em;
 }
 
 #sidebar ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 
-#sidebar li {
-    margin: 0;
-    padding: 0;
-}
-
 #sidebar li ul {
-    margin: 0px 0px;
-    padding-bottom: 30px;
+    padding-bottom: 2em;
 }
 
 #sidebar li li {
-    line-height: 40px;
+    line-height: 3em;
     border-bottom: 1px solid #E7EBED;
-    margin: 0px 0px;
     border-left: none;
 }
 
 #sidebar li li span {
     display: block;
-    margin-top: -20px;
+    margin-top: -1em;
     padding: 0;
-    font-size: 11px;
     font-style: italic;
 }
 
