@@ -63,8 +63,6 @@ a {
 /* Logo */
 
 #logo {
-    float: left;
-    width: 300px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -114,7 +112,6 @@ a {
 /* Search */
 
 #search {
-    float: right;
     width: 280px;
     height: 60px;
     padding: 20px 0px 0px 0px;
@@ -154,7 +151,6 @@ a {
 /* Menu */
 
 #menu {
-    float: right;
     width: 500px;
     height: 90px;
     margin: 0 auto;
@@ -162,7 +158,6 @@ a {
 }
 
 #menu ul {
-    float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
@@ -201,14 +196,6 @@ a {
 #page {
     margin: 0 auto;
     padding: 30px 0px;
-}
-
-
-/* Content */
-
-#content {
-    float: right;
-    padding: 0px 0px 0px 0px;
 }
 
 .post {
@@ -282,7 +269,6 @@ a {
 /* Sidebar */
 
 #sidebar {
-    float: left;
     margin: 0px;
     padding: 30px 0px 0px 0px;
 }
