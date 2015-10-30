@@ -49,12 +49,7 @@ a {
 
 /* Header */
 
-#header-wrapper {
-    overflow: hidden;
-}
-
 #header {
-    height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -151,8 +146,6 @@ a {
 /* Menu */
 
 #menu {
-    width: 500px;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
@@ -162,10 +155,6 @@ a {
     padding: 20px 0px 0px 0px;
     list-style: none;
     line-height: normal;
-}
-
-#menu li {
-    float: left;
 }
 
 #menu a {
