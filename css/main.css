@@ -43,7 +43,6 @@ a {
 }
 
 .container {
-    width: 1000px;
     margin: 0px auto;
 }
 
@@ -55,7 +54,6 @@ a {
 }
 
 #header {
-    width: 1000px;
     height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
@@ -201,7 +199,6 @@ a {
 /* Page */
 
 #page {
-    width: 1000px;
     margin: 0 auto;
     padding: 30px 0px;
 }
@@ -354,8 +351,7 @@ a {
 /* Three Column Footer Content */
 
 #footer-content {
-    overflow: hidden;
-    width: 1000px;
+    overflow: hidden; 
     margin: 0px auto;
     color: #D6E2F0;
 }
