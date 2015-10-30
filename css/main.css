@@ -13,8 +13,6 @@ html{
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
     color: #5B5B5B;
@@ -268,6 +266,7 @@ a {
 
 #sidebar li ul {
     padding-bottom: 2em;
+    padding-left: .5em;
 }
 
 #sidebar li li {
@@ -279,25 +278,19 @@ a {
 #sidebar li li span {
     display: block;
     margin-top: -1em;
-    padding: 0;
     font-style: italic;
 }
 
 #sidebar li li a {
-    padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 #sidebar h2 {
-    padding: 0px 0px 30px 0px;
-    letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
 }
 
 #sidebar p {
-    margin: 0 0px;
-    padding: 0px 30px 20px 30px;
     text-align: justify;
 }
 
