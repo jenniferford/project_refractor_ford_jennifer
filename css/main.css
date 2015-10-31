@@ -120,46 +120,6 @@ a {
     margin: 0px auto;
 }
 
-
-/* Search */
-
-#search {
-    width: 280px;
-    height: 60px;
-    padding: 20px 0px 0px 0px;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 170px;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #E7EBED;
-    background: #FFFFFF;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5D781D;
-}
-
-#search-submit {
-    width: 50px;
-    height: 22px;
-    border: none;
-    background: #B9B9B9;
-    color: #000000;
-}
-
-
 /* Menu */
 
 #menu {
@@ -169,16 +129,16 @@ a {
 
 #menu ul {
     margin: 0;
-    padding: 2em 0.8em;
+    padding: 1em 0.8em;
     list-style: none;
     line-height: normal;
 }
 
 #menu a {
     display: block;
-    line-height: 100px;
+    line-height: 3em;
     margin-right: 1px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 2em 0px 2em;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
